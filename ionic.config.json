@@ -1,5 +1,7 @@
 {
   "name": "MyDyDApp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

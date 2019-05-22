@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-back-button></ion-back-button>
+        </ion-buttons>
+    <ion-title>Comment Detail</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card *ngFor="let comment of comments">
+        <ion-card-header>
+          <ion-card-subtitle>{{comment.name}}</ion-card-subtitle>
+          <ion-card-subtitle>{{comment.email}}</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+            {{comment.body}}
+        </ion-card-content>
+      </ion-card>
+</ion-content>

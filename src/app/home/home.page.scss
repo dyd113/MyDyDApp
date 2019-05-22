@@ -1,1 +1,13 @@
-
+ion-icon {
+  font-size: 25px;
+}
+ion-badge{
+  font-size: 15px; 
+}
+.custom-skeleton ion-skeleton-text {
+    line-height: 13px;
+  }
+  
+  .custom-skeleton ion-skeleton-text:last-child {
+    margin-bottom: 5px;
+  }

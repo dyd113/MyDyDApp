@@ -1,0 +1,8 @@
+    <ion-item  *ngIf="commentData.length > 0" (click)="goToCommentDetail()">
+      <ion-icon name="list-box">Comments</ion-icon> 
+      <ion-badge color="light">({{commentData.length}})</ion-badge>
+    </ion-item>
+    <div *ngIf="commentData.length == 0" class="ion-padding custom-skeleton">
+      <ion-skeleton-text animated style="width: 70%"></ion-skeleton-text>
+      <ion-skeleton-text animated style="width: 50%"></ion-skeleton-text>
+    </div>
